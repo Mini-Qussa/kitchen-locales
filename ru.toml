@@ -1,0 +1,20 @@
+{
+    "meta": {
+        "id": "ru",
+        "name": "Русский",
+        "author": "Kitchen",
+        "Kitchen-Version": "0.0.1-BETA"
+    },
+    "setup.greeter":"Здравствуйте! давайте настроим Kitchen",
+
+    "setup.download_ask": "хотите ли вы начать установку локалей? Репозиторий > {{ link }}. (Y/N) > ",
+    "setup.answer_no": "Продолжаю с {{ name }} локолью (создано для версии Kitchen {{ version }})",
+    "setup.repository_fetch":"Подключаюсь к репозиторию...",
+    "setup.failed_to_fetch":"Ошибка подключения к {{ url }}. Ошибка: {{ error }}",
+    "setup.locale_header":"Available locales in {{ url }}",
+    "setup.locale_list":"{{ index }} | id: {{ id }} | название {{ name }} | автор {{ author }} | версия {{ kitchen-version }}",
+    "setup.select_language": "Пожалуйста выберите локль (индекс) > ",
+    "setup.index_error": "{{ index }} не существует. попробуй другой > ",
+    
+    "status.done": "Готово"
+}
